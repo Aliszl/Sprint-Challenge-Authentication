@@ -34,5 +34,22 @@ describe('register', () => {
   });
 });
 
-
+// describe('login', () => {
+//   it('login successfull', () => {
+//     const user = {
+//       username: 'Aliszl',
+//       password: '1234'
+//     };
+//     return request(server)
+//       .post('/api/auth/login')
+//       .send(user)
+//       .expect(200)
+//       .expect('Content-Type', /json/)
+//       // .then(res => {
+//       //   token = res.body.token;
+//       //   expect(res.status).toEqual(200);
+//       //   expect(res.body).toHaveProperty('token');
+//       // });
+//   });
+ 
 module.export = token;
