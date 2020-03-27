@@ -39,7 +39,7 @@ router.post('/login', (req, res) => {
           options
         );
 
-        res.json({
+        res.status(200).json({
           message: "Here is your token, do not lose it!!!!",
           token
         });
